@@ -1,0 +1,32 @@
+<!-- Muhammad Rafi'uddin bin Zulkifli (index.html) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quran Journal — Surah List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Quran Journal</h1>
+  <nav>
+    <button onclick="window.location.href='home.html'">Home</button>
+    <button onclick="window.location.href='journal.html'">My Journals</button>
+  </nav>
+</header>
+
+<main>
+    <div class="search-container">
+  <input type="text" id="searchInput" placeholder="Search surah by name..." />
+    </div>
+  <div id="surah-list" class="surah-list">
+    <p>Loading surahs...</p>
+  </div>
+</main>
+
+<div id="toast" class="toast hidden"></div>
+
+<script src="index.js"></script>
+</body>
+</html>

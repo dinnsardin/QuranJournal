@@ -1,0 +1,41 @@
+<!-- Muhammad Rafi'uddin bin Zulkifli (home.html) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quran Journal — Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="home-body">
+
+  <header class="home-header">
+    <h1>Quran Journal</h1>
+    <p class="subtitle">Reflect. Discover. Connect.</p>
+  </header>
+
+  <section class="home-hero">
+    <img src="assets/quran-bg.jpg" alt="Quran Reflection" class="hero-img">
+    <div class="home-overlay">
+      <h2>“Indeed, in the remembrance of Allah do hearts find rest.”</h2>
+      <p>Start your journey of spiritual reflection — one surah at a time.</p>
+    </div>
+  </section>
+
+  <main class="home-cards">
+    <div class="card-home" onclick="window.location.href='index.html'">
+      <h3>Surah List</h3>
+      <p>Browse all surahs and add your reflections.</p>
+    </div>
+
+    <div class="card-home" onclick="window.location.href='journal.html'">
+      <h3>My Journals</h3>
+      <p>Summary of all your journal entries.</p>
+    </div>
+  </main>
+
+  <footer class="home-footer">
+    <p>&copy; 2025 Quran Journal | Developed by Rafi'uddin</p>
+  </footer>
+
+</body>
+</html>
