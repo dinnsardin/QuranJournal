@@ -1,7 +1,7 @@
 # 🕋 Quran Journal
 
 A cross-platform desktop application built with **Electron.js** that allows users to explore Surah information from the Al-Quran and record their personal spiritual reflections.  
-This project was developed as part of the **CSC2744 – Object-Oriented Programming (Final Assignment)** for **Kolej Profesional MARA Beranang**, Session 2 2025/2026.
+This project was developed as part of the **CSC2744 – Object-Oriented Programming (Final Assignment)** for **Kolej Profesional MARA Indera Mahkota**, Session 2 2025/2026.
 
 ---
 
